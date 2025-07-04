@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: artify-ai-backend
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
-    envVars:
-      - key: REPLICATE_API_TOKEN
-        value: your_replicate_api_token_here
